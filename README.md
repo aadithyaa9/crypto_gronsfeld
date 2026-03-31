@@ -40,14 +40,6 @@ The system is split into two distinct pipelines:
 
 ---
 
-## Getting Started
-
-### Prerequisites
-* [Go](https://go.dev/dl/) (1.18 or higher recommended)
-
-### Installation
-Clone the repository and navigate into the directory:
-
 ```bash
 git clone [https://github.com/aadithyaa9/crypto_gronsfeld.git](https://github.com/aadithyaa9/crypto_gronsfeld.git)
 cd crypto_gronsfeld
