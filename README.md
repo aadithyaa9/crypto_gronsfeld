@@ -39,4 +39,13 @@ The system is split into two distinct pipelines:
 2. **Decrypt LAST:** If the hashes match perfectly, the ciphertext is decrypted back into the original plaintext.
 
 ---
+## Prompt 
+
+
+
+### 1. Network Architecture
+> "Architect a secure communication pipeline using the **Encrypt-then-MAC** workflow. Separate the logic into distinct Sender and Receiver functions. The Sender must append a Shared Secret to the ciphertext before hashing to prevent forgery."
+
+### 2. Security & Verification
+> "Implement a fail-fast Receiver pipeline. The function must reconstruct the MAC using its local Shared Secret and compare it against the network payload. If the authentication fails, it must instantly drop the payload and return an error without ever invoking the decryption algorithm, preventing Cryptographic Doom vulnerabilities."
 
