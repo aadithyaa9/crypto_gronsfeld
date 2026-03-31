@@ -40,6 +40,3 @@ The system is split into two distinct pipelines:
 
 ---
 
-```bash
-git clone [https://github.com/aadithyaa9/crypto_gronsfeld.git](https://github.com/aadithyaa9/crypto_gronsfeld.git)
-cd crypto_gronsfeld
