@@ -43,9 +43,14 @@ The system is split into two distinct pipelines:
 
 
 
-### 1. Network Architecture
-> "Architect a secure communication pipeline using the **Encrypt-then-MAC** workflow. Separate the logic into distinct Sender and Receiver functions. The Sender must append a Shared Secret to the ciphertext before hashing to prevent forgery."
+### 1. ALGORITHM EXPLANATION
+> "Walk me through the formula of the Gronsfeld Cipher. How does it operate using modulo 26 arithmetic? show me a step by step manual calculation of how the word 'HELLO' is encrypted using the numeric key '314', and then show the exact mathematical steps to decrypt it back and explain how this cipher differs conceptually from the Caesar Cipher and the Vigenère Cipher."
 
-### 2. Security & Verification
-> "Implement a fail-fast Receiver pipeline. The function must reconstruct the MAC using its local Shared Secret and compare it against the network payload. If the authentication fails, it must instantly drop the payload and return an error without ever invoking the decryption algorithm, preventing Cryptographic Doom vulnerabilities."
+### 2. FNV-1a
+> "Explain the working of the FNV-1a hashing algorithm in detail"
 
+### 3. FNV-1a
+> "Explain the conceptual difference between simply hashing a ciphertext versus hashing a combination of a 'Shared Secret' and a ciphertext."
+
+### 4.Implementation
+> "Can you give the base code for this"
