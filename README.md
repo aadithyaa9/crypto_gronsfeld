@@ -49,7 +49,7 @@ The system is split into two distinct pipelines:
 ### 2. FNV-1a
 > "Explain the working of the FNV-1a hashing algorithm in detail"
 
-### 3. FNV-1a
+### 3. Hashing vs Cipher
 > "Explain the conceptual difference between simply hashing a ciphertext versus hashing a combination of a 'Shared Secret' and a ciphertext."
 
 ### 4.Implementation
